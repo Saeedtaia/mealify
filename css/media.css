@@ -1,0 +1,242 @@
+@media screen and (max-width:1200px){
+    .home{
+        height: inherit;
+        }
+    .hcontent{
+        padding-top: 100px;
+    }
+    .hcontent .side h2{
+        width: 100%;
+        font-size: 60px;
+    }
+    .nav ul{
+        display: none;
+    }
+    .mood .bars{
+        display: inline-block;
+        transition: display 0.1s linear;
+    }
+    .images{
+        flex-wrap: nowrap;
+    }
+    .images div{
+        width:100%;
+    
+    }
+    .wwww{
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footerright{
+        order: 2;
+        width: 48%;
+        align-self: flex-start;
+    }
+    .left1{
+        order: 0;
+        width: 48%;
+        align-self: flex-start;
+    }
+    .meddle{
+        order: 3;
+        align-self: flex-end;
+        width: 100%;        
+    }
+    /* ------------------------------------ */
+}
+@media screen and (max-width:992px){
+    .home{
+    height: inherit;
+    padding-bottom: 20px;
+    }
+    .hcontent{
+        /* height: 100%; */
+        padding-top: 100px;
+        border: 1px solid #00000000;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .plate{
+        width: 100%;
+        display: block;
+    }
+    .hcontent .side{
+        width: 100%;
+        /* padding-bottom: 20px; */
+        text-align: center;
+    }
+    .hcontent .side h2{
+        width: 60%;
+        margin: auto;
+        font-size: 45px;
+    }
+    .hcontent .side p{
+        width: 100%;
+    }
+    .side .btn{
+        justify-content: space-around;
+        width: 90%;
+        margin: auto;
+    }
+    .book{
+        width: 40%;
+        border-radius: 40px;
+        margin: 0;
+        padding: 0px 30px;
+    }
+    .popright .in{
+        width: 35%;
+    }
+    .nav ul{
+        display: none;
+    }
+    /* ----------------------------------------- */
+    /* cheefs */
+    .cards{
+        flex-wrap: wrap;
+        align-items: start;
+    }
+    .card{
+        width: 48%;
+    }
+    /* ------------------------------------------ */
+    /* gallary */
+    .images{
+        align-items: flex-start;
+        justify-content: space-around;
+        align-content: flex-start;
+    }
+    .images div{
+        width:100%;
+        flex-wrap: wrap;
+    }
+    .images div h2{
+        font-size: 24px;
+    }
+    .images div p{
+        font-size: 16px;
+    }
+    /* ----------------------------------- */
+    /* contact */
+    .form .name{
+        flex-wrap: wrap;
+    }
+    .form .name input{
+        width: 100%;
+    }
+    .wwww{
+        margin: auto;
+    }
+}
+@media screen and (max-width:768px){
+    .cards{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .book{
+        width: 40%;
+    }
+    .data ul{
+        flex-wrap: wrap;
+    }
+    .data li{
+        width: 100%;
+    }
+    .card{
+    width: 100%;
+    }
+    .images{
+        flex-direction: column;
+    }
+    .images div{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .images div h2{
+        font-size: 30px;
+    }
+    .images div p{
+        font-size: 24px;
+    }
+    .column1,.column2,.column3{
+        width: 100%;
+    
+    }
+    .form button{
+        width: 35%;
+        padding: 15px 0px;
+    }
+    .formin{
+        width: 95%;
+    }
+    .wwww{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerright{
+        order: 3;
+        width: 100%;
+        align-self: flex-start;
+        margin-top: 20px;
+    }
+    .left1{
+        order: 0;
+        width: 100%;
+        align-self: flex-start;
+    }
+    .meddle{
+        order: 2;
+        align-self: flex-end;
+        width: 100%;        
+    }
+    .pppp{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .search input[type="search"]{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .pppp button{
+        width: 100%;
+    }
+}
+::placeholder{
+    font-size: 16px;
+}
+p::selection{
+    background-color: rgba(225, 119, 119, 0.714);
+}
+span::selection{
+    background-color: rgba(225, 119, 119, 0.714);
+}
+h2::selection{
+    background-color: rgba(225, 119, 119, 0.714);
+}
+h3::selection{
+    background-color: rgba(225, 119, 119, 0.714);
+}
+h4::selection{
+    background-color: rgba(225, 119, 119, 0.714);
+}
+::-webkit-scrollbar {
+    width: 15px;
+    padding: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.69); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: black; 
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(111, 111, 111, 0.675); 
+    border-radius: 10px;
+}
